@@ -1,13 +1,15 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HelloWorldComponent } from './helloWorld.component';
+import { CleaveDirective } from './cleave.directive';
 
 @NgModule({
   declarations: [
-    HelloWorldComponent
+    CleaveDirective
   ],
   imports: [CommonModule],
-  exports: [HelloWorldComponent]
+  exports: [
+    CleaveDirective
+  ]
 })
 export class Ng2CleaveModule {
 

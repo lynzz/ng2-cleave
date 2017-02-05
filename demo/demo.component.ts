@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ng2-demo-app',
-  template: '<ng2-hello-world></ng2-hello-world>'
+  template: '<input ng2Cleave="{}">'
 })
 export class DemoComponent {}

@@ -20,8 +20,7 @@
     "gh-pages": "git checkout gh-pages && git merge master --no-edit && npm run build:demo && npm run typedoc && git add . && git commit -m 'chore: build demo and docs' && git push && git checkout master",
     "prerelease": "npm test",
     "release": "git add package.json && git commit -m 'chore: bump version number' && standard-version --first-release && git push --follow-tags origin master && npm run build:dist && npm publish",
-    "postrelease": "npm run build:clean && npm run gh-pages",
-    "commitmsg": "validate-commit-msg"
+    "postrelease": "npm run build:clean && npm run gh-pages"
   },
   "repository": {
     "type": "git",
@@ -47,6 +46,7 @@
     "@types/chai": "^3.4.30",
     "@types/core-js": "^0.9.32",
     "@types/jasmine": "^2.2.33",
+    "@types/lodash": "4.14.50",
     "@types/sinon": "^1.16.27",
     "@types/sinon-chai": "^2.7.26",
     "awesome-typescript-loader": "^2.2.4",
@@ -93,5 +93,8 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "cleave.js": "^0.7.15"
   }
 }
