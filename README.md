@@ -1,4 +1,4 @@
-# Angular CleaveJS Directive
+# Angular cleave.js Directive
 [![Build Status](https://travis-ci.org/stefanmeschke/ng2-cleave.svg?branch=master)](https://travis-ci.org/stefanmeschke/ng2-cleave)
 [![npm version](https://badge.fury.io/js/ng2-cleave.svg)](http://badge.fury.io/js/ng2-cleave)
 [![devDependency Status](https://david-dm.org/stefanmeschke/ng2-cleave/dev-status.svg)](https://david-dm.org/stefanmeschke/ng2-cleave?type=dev)
@@ -19,7 +19,7 @@ https://stefanmeschke.github.io/ng2-cleave/demo/
 
 ## About
 
-Angular Directive for CleaveJS
+Angular Directive for cleave.js
 
 ## Installation
 

@@ -2,6 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ng2-demo-app',
-  template: '<input ng2Cleave="{}">'
+  templateUrl: './demo.component.html'
 })
-export class DemoComponent {}
+export class DemoComponent {
+
+  date: string;
+  custom: string;
+
+}
